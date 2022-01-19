@@ -26,6 +26,7 @@ function operatorEingabe(eingabe) {
     ausgabe.textContent += eingabe;
   } else {
     ausgabe.textContent = ausgabe.textContent.replace(operator, eingabe);
+
   }
   operator = eingabe;
 }
